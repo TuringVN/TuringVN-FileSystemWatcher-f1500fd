@@ -39,7 +39,7 @@ namespace FileChangeNotifier
             {
                 m_bIsWatching = true;
                 btnWatchFile.BackColor = Color.Red;
-                btnWatchFile.Text = "Stop Watching";
+                btnWatchFile.Text = "Stop Watching change";
 
                 m_Watcher = new System.IO.FileSystemWatcher();
                 if (rdbDir.Checked)
